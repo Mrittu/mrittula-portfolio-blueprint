@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Html5, Css3, Java, VsCode, Canva, TimerReset, Users, Languages } from "lucide-react";
+import { Code, FileCode, Coffee, Terminal, PenTool, Clock, Users, Languages } from "lucide-react";
 
 interface SkillGroup {
   category: string;
@@ -15,16 +15,16 @@ const Skills = () => {
     {
       category: "Programming",
       skills: [
-        { name: "Java", icon: <Java className="h-5 w-5" /> },
-        { name: "HTML5", icon: <Html5 className="h-5 w-5" /> },
-        { name: "CSS3", icon: <Css3 className="h-5 w-5" /> }
+        { name: "Java", icon: <Coffee className="h-5 w-5" /> },
+        { name: "HTML5", icon: <Code className="h-5 w-5" /> },
+        { name: "CSS3", icon: <FileCode className="h-5 w-5" /> }
       ]
     },
     {
       category: "Tools & Platforms",
       skills: [
-        { name: "VS Code", icon: <VsCode className="h-5 w-5" /> },
-        { name: "Canva", icon: <Canva className="h-5 w-5" /> },
+        { name: "VS Code", icon: <Terminal className="h-5 w-5" /> },
+        { name: "Canva", icon: <PenTool className="h-5 w-5" /> },
         { name: "MATLAB", icon: null },
         { name: "VHDL", icon: null },
         { name: "MS Office", icon: null }
@@ -35,7 +35,7 @@ const Skills = () => {
       skills: [
         { name: "Teamwork", icon: <Users className="h-5 w-5" /> },
         { name: "Adaptability", icon: null },
-        { name: "Time Management", icon: <TimerReset className="h-5 w-5" /> }
+        { name: "Time Management", icon: <Clock className="h-5 w-5" /> }
       ]
     },
     {

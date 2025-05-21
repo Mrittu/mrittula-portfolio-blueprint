@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { BookOpenText, Certificate, GraduationCap } from "lucide-react";
+import { BookOpenText, Award, GraduationCap } from "lucide-react";
 
 const Publications = () => {
   return (
@@ -49,7 +49,7 @@ const Publications = () => {
           {/* Participation */}
           <Card>
             <CardHeader className="flex flex-row items-center gap-4 pb-2">
-              <Certificate className="h-6 w-6 text-primary" />
+              <Award className="h-6 w-6 text-primary" />
               <div>
                 <CardTitle className="text-lg">Participations</CardTitle>
               </div>
