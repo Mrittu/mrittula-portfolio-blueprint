@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const AboutMe = () => {
   return (
@@ -36,8 +37,11 @@ const AboutMe = () => {
         
         <div className="relative">
           <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center overflow-hidden shadow-lg">
-            {/* Replace with actual image later */}
-            <div className="text-6xl font-bold text-primary/30">MY</div>
+            <img 
+              src="/lovable-uploads/2591628a-019e-4413-b71b-dba273cd1b58.png" 
+              alt="Mrittula Yasaswini" 
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
             <div className="text-sm font-medium">B.E. ECE (2022-2026)</div>
