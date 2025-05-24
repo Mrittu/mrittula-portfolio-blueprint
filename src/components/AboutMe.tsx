@@ -38,7 +38,7 @@ const AboutMe = () => {
         <div className="relative">
           <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center overflow-hidden shadow-lg">
             <img 
-              src="/lovable-uploads/2591628a-019e-4413-b71b-dba273cd1b58.png" 
+              src="/lovable-uploads/daadbec6-8752-47de-8079-666f6347fd0a.png" 
               alt="Mrittula Yasaswini" 
               className="w-full h-full object-cover"
             />
